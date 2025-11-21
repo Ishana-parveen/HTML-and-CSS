@@ -1,0 +1,22 @@
+.word1{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black; 
+}
+.word2{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black; 
+}
+
+.word3{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black; 
+}

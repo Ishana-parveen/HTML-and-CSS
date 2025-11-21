@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css variables</title>
+    <style>
+        :root{
+            --x: blue;
+            --y: yellow;
+        }
+        h1{
+            color: var(--x);
+            
+        }
+        p{
+            --y:yellow;
+            color: var(--x);
+            background-color: var(--y);
+
+        }
+
+        h2{
+            color: var(--y);
+        }
+    </style>
+</head>
+<body>
+    <h1>css variables</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam minima eius Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odio dolorum dicta quod veniam, cupiditate ab rerum nulla laborum sed similique, facilis amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum reiciendis dicta alias, minima sapiente in ullam quam nostrum officia commodi incidunt aut velit, voluptatum laborum odio sit quae quod corporis! aliquid fugit molestias eos sit tempora odit! laudantium dicta harum inventore labore quos aliquam perspiciatis ab vel nulla, molestiae rerum in ipsa dignissimos quis impedit quidem.</p>
+    <h2>css variables</h2>
+</body>
+</html>
